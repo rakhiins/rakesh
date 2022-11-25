@@ -1,0 +1,11 @@
+list=[24,12,11,54,8,45,39,99]
+sum=0
+for i in list:
+    if i%2==0:
+        sum=sum+1
+print("the sum is",sum)        
+
+
+output:
+
+the sum is 4
