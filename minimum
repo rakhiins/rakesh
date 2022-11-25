@@ -1,0 +1,10 @@
+list=[12,54,23,46,2,78,90]
+min=list[0]
+for i in list:
+    if i<min:
+        min=i
+print("minimum element is",min)
+
+
+output:
+minimum element is 2
