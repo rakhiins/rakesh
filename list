@@ -1,0 +1,14 @@
+list=[1,3,5,7,9,11]
+print('enter the number')
+num=int(input())
+if num in list:
+    print('number is in list')
+else:
+    print('number is not in list ')
+    
+    
+output:
+
+enter the number
+3
+number is in list
