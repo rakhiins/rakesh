@@ -1,0 +1,28 @@
+a=int(input("enter the value of a"))
+print("the value of left shift operators from 1 to 10 are")
+print(a<<1)
+print(a<<2)
+print(a<<3)
+print(a<<4)
+print(a<<5)
+print(a<<6)
+print(a<<7)
+print(a<<8)
+print(a<<9)
+print(a<<10)
+
+
+output:
+
+enter the value of a20
+the value of left shift operators from 1 to 10 are
+40
+80
+160
+320
+640
+1280
+2560
+5120
+10240
+20480
