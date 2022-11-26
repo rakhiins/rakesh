@@ -1,0 +1,20 @@
+a=int(input("enter the value of a"))
+b=int(input("enter the value of b"))
+print("result of bitaise and is")
+print(a&b)
+print("result of bitwise or is")
+print(a|b)
+print("result of bitwise not is")
+print(a^b)
+
+
+output:
+
+enter the value of a15
+enter the value of b20
+result of bitaise and is
+4
+result of bitwise or is
+31
+result of bitwise not is
+27
