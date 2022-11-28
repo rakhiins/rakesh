@@ -1,0 +1,13 @@
+pin=int(input("enter the pin number"))
+if (pin==5320):
+    print("countinue the transaction")
+else:
+    print("pin is incrrect")
+    print("please try again")
+    
+    
+    output:
+    
+enter the pin number2021
+pin is incrrect
+please try again  
