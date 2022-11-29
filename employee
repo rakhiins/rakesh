@@ -1,0 +1,51 @@
+empno=int(input("enter the employee number"))
+empname=input("enter the employee name")
+empdesign=input("enter the employee department")
+sal=int(input("enter the employee salary"))
+da=int(input("enter the employee Daily Allowance"))
+ta=int(input("enter the employee travelling Allowance"))
+har=int(input("enter the employee House Rental Allowance"))
+print("NUMBER",empno)
+print("NAME",empname)           
+print("EMPLOYEE DEPARTMENT",empdesign)
+print("SALARY",sal)
+print("Daily Allowance",da)
+print("Travelling Allowance",ta)
+print("House Rental Allowance",har)
+Netsalary=sal+da+ta+har
+print("Netsalary=",Netsalary)
+if Netsalary>100000:
+    tax=Netsalary*10/100
+    print("Tax",tax)
+elif Netsalary>50000:
+    tax=netsalary*7/100
+    print("Tax",tax)
+elif Netsalary>40000:
+    tax=Netsalary*4/100
+    print("Tax",tax)
+elif Netsalary>20000:
+    tax=Netsalary*2/100
+    print("Tax",tax)
+elif Netsalary<20000:
+    tax=0
+    print("Tax",tax)
+
+
+output:
+
+enter the employee number5320
+enter the employee namerakesh
+enter the employee departmentmanager
+enter the employee salary150000
+enter the employee Daily Allowance1000
+enter the employee travelling Allowance500
+enter the employee House Rental Allowance2000
+NUMBER 5320
+NAME rakesh
+EMPLOYEE DEPARTMENT manager
+SALARY 150000
+Daily Allowance 1000
+Travelling Allowance 500
+House Rental Allowance 2000
+Netsalary= 153500
+Tax 15350.0
