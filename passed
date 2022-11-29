@@ -1,0 +1,27 @@
+sno=int(input("enter the student number"))
+sname=input("enter the student name")
+grp=input("enter group of the sutdent")
+print("STUDENT NUMBER",sno)
+print("NAME",sname)
+print("GROUP",grp)
+s1=int(input("Enter the subject 1="))
+s2=int(input("Enter the subject 2="))
+s3=int(input("enter the subject 3="))
+if (s1>=35 and s2>=35 and s3>=35):
+    print("PASSED")
+else:
+    print("FAILED")
+
+
+output:
+
+enter the student number5320
+enter the student nameyaswenth
+enter group of the sutdentbsc
+STUDENT NUMBER 5320
+NAME yaswenth
+GROUP bsc
+Enter the subject 1=98
+Enter the subject 2=89
+enter the subject 3=87
+PASSED
